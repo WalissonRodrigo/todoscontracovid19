@@ -36,6 +36,12 @@
   <link rel="prerender" href="https://todoscontracovid19.netlify.app/">
   <!-- o rel="canonical" impede que os buscadores indexem a mesma URL mais de uma vez -->
   <link rel="canonical" href="https://todoscontracovid19.netlify.app/" />
+  <script>
+    function handle(e) {
+      e.preventDefault();
+    }
+    document.addEventListener('touchstart', handle, true);
+  </script>
 </head>
 
 <body>
@@ -61,20 +67,20 @@
 
         <p class="hero-genero">
           <a href="https://www.google.com/search?q=Coronav%C3%ADrus&hl=pt-BR&sxsrf=ALeKk002XBp6CeUoAGegtsJ-2XLFB-bBzQ:1587067510130&source=lnms&tbm=nws&sa=X&ved=2ahUKEwiu2LOZ3-3oAhWVH7kGHb4wDuoQ_AUoAnoECCAQBA&biw=1366&bih=625"
-            class="hero-genero-item" target="_blank">Novidades
+            class="hero-genero-item" target="_blank" rel="noopener">Novidades
           </a>
           <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#como-se-proteger" class="hero-genero-item"
-            target="_blank">
+            target="_blank" rel="noopener">
             Previna-se
           </a>
-          <a href="https://google.com/covid19-map/?hl=pt-BR" class="hero-genero-item" target="_blank">
+          <a href="https://google.com/covid19-map/?hl=pt-BR" class="hero-genero-item" target="_blank" rel="noopener">
             Mapa de Contágio
           </a>
         </p>
 
         <div class="hero-informacao">
           <p>Como Higienizar as mãos</p>
-          <a href="https://youtu.be/m4QHo59UvaU" class="hero-botao" target="_blank">
+          <a href="https://youtu.be/m4QHo59UvaU" class="hero-botao" target="_blank" rel="noopener">
             Assistir
             <i class="fa fa-play-circle-o"></i>
           </a>
@@ -89,19 +95,19 @@
       <div class="container">
         <ul class="catalogo-menu-lista">
           <li class="catalogo-menu-lista-item">
-            <a target="_blank"
+            <a target="_blank" rel="noopener"
               href="https://news.google.com/topics/CAAqBwgKMN30lwsw_J2vAw?hl=pt-BR&gl=BR&ceid=BR:pt-419">
               Ultimas Noticias
             </a>
           </li>
           <li class="catalogo-menu-lista-item">
-            <a target="_blank"
+            <a target="_blank" rel="noopener"
               href="https://news.google.com/topics/CAAqBwgKMN30lwsw_J2vAw/sections/CAQqEAgAKgcICjDd9JcLMPydrwMw2abOBg?hl=pt-BR&gl=BR&ceid=BR%3Apt-419">
               Impacto Global
             </a>
           </li>
           <li class="catalogo-menu-lista-item">
-            <a target="_blank"
+            <a target="_blank" rel="noopener"
               href="https://news.google.com/search?q=Tratamentos%20para%20o%20Coronav%C3%ADrus%20Covid19&hl=pt-BR&gl=BR&ceid=BR%3Apt-419">
               Tratamentos do Vírus
             </a>
@@ -139,7 +145,8 @@
 
         <li class="postagem-lista-item">
           <figure class="postagem-poster">
-            <iframe width="100%" height="344" src="https://www.youtube.com/embed/sTK-lMqp8WY" frameborder="0"
+            <iframe title="Vamos vencer o coronavírus juntos!" width="100%" height="344"
+              src="https://www.youtube.com/embed/sTK-lMqp8WY" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </figure>
 
@@ -222,16 +229,19 @@
       <ul class="rodape-lista">
         <li class="rodape-lista-item icone-github">
           <a href="https://github.com/WalissonRodrigo">
+            GitHub <span> </span>
             <i class="fa fa-github" aria-hidden="true"></i>
           </a>
         </li>
         <li class="rodape-lista-item icone-facebook">
           <a href="https://facebook.com/walissonrodrigo0">
+            Facebook <span> </span>
             <i class="fa fa-facebook-official" aria-hidden="true"></i>
           </a>
         </li>
         <li class="rodape-lista-item icone-linkedin">
           <a href="https://www.linkedin/in/walissonrodrigo">
+            Linkedin <span> </span>
             <i class="fa fa-linkedin" aria-hidden="true"></i>
           </a>
         </li>

@@ -126,7 +126,7 @@ body {
 }
 
 .hero-usuario.sobre {
-	margin: 1%;
+	padding-top: 2%;
 }
 
 .hero-usuario-foto {
@@ -147,18 +147,18 @@ body {
 }
 
 .hero-usuario-nome {
-	color: #e4bb23;
+	color: #886b02;
 	font-size: 1.7em;
 	font-weight: bold;
 }
 
 .hero-usuario-nome a {
-	color: #e4bb23;
+	color: #886b02;
 	text-decoration: none;
 }
 
 .hero-usuario-nome.sobre {
-	color: #e4bb23;
+	color: #886b02;
 }
 
 .hero-usuario-comentario {
@@ -221,7 +221,7 @@ body {
 }
 
 .hero-botao:hover {
-	background-color: #bc9a1d;
+	background-color: #fac918;
 }
 
 .hero-botao i {
@@ -238,7 +238,7 @@ body {
 }
 
 .hero-informacao p:last-child {
-	color: #bc9a1d;
+	color: #fac918;
 }
 
 .catalogo {
@@ -265,12 +265,13 @@ body {
 }
 
 .catalogo-menu-lista-item a {
-	color: #e4bb23;
+	color: #886b02;
 	display: inline-block;
 	padding: 25px 0;
 }
 
 .catalogo-menu-lista-item a:hover {
+	color: #bc9a1d;
 	box-shadow: inset 0 -1px 0 #e4bb23;
 }
 
@@ -333,7 +334,7 @@ body {
 }
 
 .postagem-poster-info h3 {
-	color: #e4bb23;
+	color: #886b02;
 	font-size: 2em;
 	line-height: 1em;
 	text-transform: uppercase;
@@ -346,7 +347,7 @@ body {
 }
 
 .postagem-poster-link:hover {
-	color: #e4bb23;
+	color: #886b02;
 }
 
 .postagem {
@@ -369,7 +370,7 @@ body {
 .postagem-fonte-item {
 	text-decoration: none;
 	font-size: 1.2em;
-	color: #e4bb23;
+	color: #886b02;
 }
 
 .postagem-fonte-item-mais {
@@ -406,6 +407,10 @@ body {
 	display: flex;
 }
 
+.rodape-lista.sobre a {
+	font-size: 0.95em;
+}
+
 .rodape-lista-item {
 	margin: 0 20px;
 }
@@ -415,10 +420,17 @@ body {
 }
 
 .rodape-lista-item a {
-	font-size: 2.5em;
-	color: #bababa;
+	font-size: 1.25em;
+	color: #616161;
+	display: flex;
+	align-items: center;
 	text-decoration: none;
 	transition: all 0.2s ease-in-out;
+}
+
+.rodape-lista-item a i {
+	margin-left: 5px;
+	font-size: 2.5em;
 }
 
 .icone-github a:hover {
