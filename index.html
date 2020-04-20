@@ -1,258 +1,243 @@
 <!DOCTYPE html>
 <html class="no-js" lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Todos contra o Covid-19</title>
-    <meta
-      name="description"
-      content="Site de Informações do Covid-19 proposto pela Gama Academy no projeto Hiring Coders"
-    />
-    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
 
-  <body>
-    <header class="hero">
-      <nav class="hero-menu">
-        <div class="container">
-          <a href="#" class="hero-logo">
-            <img src="img/covid19_rna.png" alt="Moleculas do Covid 19" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Todos contra o Covid-19</title>
+  <meta name="description"
+    content="Site de Informações do Covid-19 proposto pela Gama Academy no projeto Hiring Coders" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+  <!-- usar a shortcut icon para favicon não é mais recomendado, este formato é ideal -->
+  <link rel="icon" href="/favicon.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="/favicon.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/favicon.png" sizes="48x48" type="image/png">
+  <link rel="icon" href="/favicon.png" sizes="62x62" type="image/png">
+  <link rel="icon" href="/favicon.png" sizes="192x192" type="image/png">
+
+  <!-- Buscador Google e demais -->
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <meta name="google" content="notranslate">
+  <meta name="referrer" content="never">
+  <meta name="url" content="https://todoscontracovid19.netlify.app/">
+  <meta name="MobileOptimized" content="width">
+
+  <meta name="language" content="pt-br">
+  <meta name="author" content="Walisson Rodrigo">
+  <meta name="designer" content="Walisson Rodrigo">
+  <meta name="copyright" content="Walisson Rodrigo">
+  <meta name="reply-to" content="walissonrodrigo@outlook.com">
+  <meta name="owner" content="Walisson Rodrigo">
+
+  <!-- o rel="prerender" faz com que o Browser carregue toda sua página antes mesmo dela ser visualizada, o que para o usuário vai dar uma sensação de abrir muito rápido -->
+  <link rel="prerender" href="https://todoscontracovid19.netlify.app/">
+  <!-- o rel="canonical" impede que os buscadores indexem a mesma URL mais de uma vez -->
+  <link rel="canonical" href="https://todoscontracovid19.netlify.app/" />
+</head>
+
+<body>
+  <header class="hero">
+    <nav class="hero-menu">
+      <div class="container">
+        <a href="#" class="hero-logo">
+          <img src="img/covid19_rna.png" alt="Moleculas do Covid 19" />
+        </a>
+
+        <ul class="hero-lista">
+          <li class="hero-lista-item"><a href="index.html">Home</a></li>
+          <li class="hero-lista-item"><a href="sobre.html">Sobre</a></li>
+          <li class="hero-lista-item"><a href="contato.html">Contato</a></li>
+          <li class="hero-lista-item"><a href="saibamais.html">Saiba Mais</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero-conteudo">
+      <div class="container">
+        <h2 class="hero-titulo">#Vamos Vencer</h2>
+
+        <p class="hero-genero">
+          <a href="https://www.google.com/search?q=Coronav%C3%ADrus&hl=pt-BR&sxsrf=ALeKk002XBp6CeUoAGegtsJ-2XLFB-bBzQ:1587067510130&source=lnms&tbm=nws&sa=X&ved=2ahUKEwiu2LOZ3-3oAhWVH7kGHb4wDuoQ_AUoAnoECCAQBA&biw=1366&bih=625"
+            class="hero-genero-item" target="_blank">Novidades
           </a>
+          <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#como-se-proteger" class="hero-genero-item"
+            target="_blank">
+            Previna-se
+          </a>
+          <a href="https://google.com/covid19-map/?hl=pt-BR" class="hero-genero-item" target="_blank">
+            Mapa de Contágio
+          </a>
+        </p>
 
-          <ul class="hero-lista">
-            <li class="hero-lista-item"><a href="#">Home</a></li>
-            <li class="hero-lista-item"><a href="#">Sobre</a></li>
-            <li class="hero-lista-item"><a href="#">Contato</a></li>
-            <li class="hero-lista-item"><a href="#">Saiba Mais</a></li>
-          </ul>
-        </div>
-      </nav>
-
-      <div class="hero-conteudo">
-        <div class="container">
-          <h2 class="hero-titulo">#Vamos Vencer</h2>
-
-          <p class="hero-genero">
-            <a
-              href="https://www.google.com/search?q=Coronav%C3%ADrus&hl=pt-BR&sxsrf=ALeKk002XBp6CeUoAGegtsJ-2XLFB-bBzQ:1587067510130&source=lnms&tbm=nws&sa=X&ved=2ahUKEwiu2LOZ3-3oAhWVH7kGHb4wDuoQ_AUoAnoECCAQBA&biw=1366&bih=625"
-              class="hero-genero-item"
-              target="_blank"
-              >Novidades
-            </a>
-            <a
-              href="https://coronavirus.saude.gov.br/sobre-a-doenca#como-se-proteger"
-              class="hero-genero-item"
-              target="_blank"
-            >
-              Previna-se
-            </a>
-            <a
-              href="https://google.com/covid19-map/?hl=pt-BR"
-              class="hero-genero-item"
-              target="_blank"
-            >
-              Mapa de Contágio
-            </a>
-          </p>
-
-          <div class="hero-informacao">
-            <p>Como Higienizar as mãos</p>
-            <a
-              href="https://youtu.be/m4QHo59UvaU"
-              class="hero-botao"
-              target="_blank"
-            >
-              Assistir
-              <i class="fa fa-play-circle-o"></i>
-            </a>
-            <p>Faça sua parte e vamos combater esse vírus</p>
-          </div>
+        <div class="hero-informacao">
+          <p>Como Higienizar as mãos</p>
+          <a href="https://youtu.be/m4QHo59UvaU" class="hero-botao" target="_blank">
+            Assistir
+            <i class="fa fa-play-circle-o"></i>
+          </a>
+          <p>Faça sua parte e vamos combater esse vírus</p>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <section class="catalogo">
-      <nav class="catalogo-menu">
-        <div class="container">
-          <ul class="catalogo-menu-lista">
-            <li class="catalogo-menu-lista-item">
-              <a
-                target="_blank"
-                href="https://news.google.com/topics/CAAqBwgKMN30lwsw_J2vAw?hl=pt-BR&gl=BR&ceid=BR:pt-419"
-              >
-                Ultimas Noticias
-              </a>
-            </li>
-            <li class="catalogo-menu-lista-item">
-              <a
-                target="_blank"
-                href="https://news.google.com/topics/CAAqBwgKMN30lwsw_J2vAw/sections/CAQqEAgAKgcICjDd9JcLMPydrwMw2abOBg?hl=pt-BR&gl=BR&ceid=BR%3Apt-419"
-              >
-                Impacto Global
-              </a>
-            </li>
-            <li class="catalogo-menu-lista-item">
-              <a
-                target="_blank"
-                href="https://news.google.com/search?q=Tratamentos%20para%20o%20Coronav%C3%ADrus%20Covid19&hl=pt-BR&gl=BR&ceid=BR%3Apt-419"
-              >
-                Tratamentos do Vírus
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
+  <section class="catalogo">
+    <nav class="catalogo-menu">
       <div class="container">
-        <ul class="postagem-lista">
-          <li class="postagem-lista-item">
-            <figure class="postagem-poster">
-              <img src="img/vamos-vencer.jpg" alt="" />
-              <div class="postagem-poster-info">
-                <h3>Vamos Vencer</h3>
-                <a
-                  href="https://www.gov.br/economia/pt-br/acesso-a-informacao/perguntas-frequentes/covid-19"
-                  class="postagem-poster-link"
-                >
-                  <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
-                </a>
-              </div>
-            </figure>
-
-            <div class="postagem">
-              <h3 class="postagem-titulo">
-                Como vamos vencer este desafio.
-              </h3>
-              <p class="postagem-fonte">
-                <a
-                  href="https://www.gov.br/economia/pt-br/acesso-a-informacao/perguntas-frequentes/covid-19"
-                  class="postagem-fonte-item"
-                >
-                  Ver fonte
-                </a>
-              </p>
-            </div>
-          </li>
-
-          <li class="postagem-lista-item">
-            <figure class="postagem-poster">
-              <iframe
-                width="100%"
-                height="344"
-                src="https://www.youtube.com/embed/sTK-lMqp8WY"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </figure>
-
-            <div class="postagem">
-              <h3 class="postagem-titulo">
-                Vamos vencer o coronavírus juntos
-              </h3>
-              <p class="postagem-fonte">
-                <a
-                  href="https://www.uberlandia.mg.gov.br/2020/03/25/vamos-vencer-o-coronavirus-juntos/"
-                  class="postagem-fonte-item"
-                  >Ver fonte</a
-                >
-              </p>
-            </div>
-          </li>
-
-          <li class="postagem-lista-item">
-            <figure class="postagem-poster">
-              <img src="img/rave.jpeg" alt="" />
-              <div class="postagem-poster-info">
-                <h3>Fique em casa não vá a festas</h3>
-                <a
-                  href="https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/04/14/varias-pessoas-sao-diagnosticadas-com-covid-19-apos-irem-a-festa-em-ro.htm"
-                  class="postagem-poster-link"
-                >
-                  <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
-                </a>
-              </div>
-            </figure>
-
-            <div class="postagem">
-              <h3 class="postagem-titulo">
-                Festa = Coronavírus<br />Não caia nessa!
-              </h3>
-              <p class="postagem-fonte">
-                <a
-                  href="https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/04/14/varias-pessoas-sao-diagnosticadas-com-covid-19-apos-irem-a-festa-em-ro.htm"
-                  class="postagem-fonte-item"
-                >
-                  Ler Matéria
-                </a>
-              </p>
-            </div>
-          </li>
-
-          <li class="postagem-lista-item">
-            <figure class="postagem-poster">
-              <img src="img/idosa-feliz.png" alt="" />
-              <div class="postagem-poster-info">
-                <h3>Cuidados com Idosos Isolados</h3>
-                <a
-                  href="https://saude.abril.com.br/blog/chegue-bem/como-fica-a-cabeca-dos-idosos-em-tempos-de-covid-19-e-isolamento-social/"
-                  class="postagem-poster-link"
-                >
-                  <i class="fa fa-envelope-open" aria-hidden="true"></i>
-                </a>
-              </div>
-            </figure>
-
-            <div class="postagem">
-              <h3 class="postagem-titulo">
-                Os mais velhos não pode ser negligenciados
-              </h3>
-              <p class="postagem-fonte">
-                <a
-                  href="https://saude.abril.com.br/blog/chegue-bem/como-fica-a-cabeca-dos-idosos-em-tempos-de-covid-19-e-isolamento-social/"
-                  class="postagem-fonte-item"
-                >
-                  Ler Matéria
-                </a>
-              </p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <footer class="rodape">
-      <div class="container">
-        <div class="hero-usuario">
-          <div class="hero-usuario-foto">
-            <img src="img/walisson-rodrigo.jpg" alt="Walisson Rodrigo" />
-          </div>
-
-          <div class="hero-usuario-nome">
-            Walisson Rodrigo
-          </div>
-        </div>
-
-        <ul class="rodape-lista">
-          <li class="rodape-lista-item icone-github">
-            <a href="https://github.com/WalissonRodrigo">
-              <i class="fa fa-github" aria-hidden="true"></i>
+        <ul class="catalogo-menu-lista">
+          <li class="catalogo-menu-lista-item">
+            <a target="_blank"
+              href="https://news.google.com/topics/CAAqBwgKMN30lwsw_J2vAw?hl=pt-BR&gl=BR&ceid=BR:pt-419">
+              Ultimas Noticias
             </a>
           </li>
-          <li class="rodape-lista-item icone-facebook">
-            <a href="https://facebook.com/walissonrodrigo0">
-              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          <li class="catalogo-menu-lista-item">
+            <a target="_blank"
+              href="https://news.google.com/topics/CAAqBwgKMN30lwsw_J2vAw/sections/CAQqEAgAKgcICjDd9JcLMPydrwMw2abOBg?hl=pt-BR&gl=BR&ceid=BR%3Apt-419">
+              Impacto Global
             </a>
           </li>
-          <li class="rodape-lista-item icone-linkedin">
-            <a href="https://www.linkedin/in/walissonrodrigo">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <li class="catalogo-menu-lista-item">
+            <a target="_blank"
+              href="https://news.google.com/search?q=Tratamentos%20para%20o%20Coronav%C3%ADrus%20Covid19&hl=pt-BR&gl=BR&ceid=BR%3Apt-419">
+              Tratamentos do Vírus
             </a>
           </li>
         </ul>
       </div>
-    </footer>
-  </body>
+    </nav>
+
+    <div class="container">
+      <ul class="postagem-lista">
+        <li class="postagem-lista-item">
+          <figure class="postagem-poster">
+            <img src="img/vamos-vencer.jpg" alt="" />
+            <div class="postagem-poster-info">
+              <h3>Vamos Vencer</h3>
+              <a href="https://www.gov.br/economia/pt-br/acesso-a-informacao/perguntas-frequentes/covid-19"
+                class="postagem-poster-link">
+                <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+              </a>
+            </div>
+          </figure>
+
+          <div class="postagem">
+            <h3 class="postagem-titulo">
+              Como vamos vencer este desafio.
+            </h3>
+            <p class="postagem-fonte">
+              <a href="https://www.gov.br/economia/pt-br/acesso-a-informacao/perguntas-frequentes/covid-19"
+                class="postagem-fonte-item">
+                Ver fonte
+              </a>
+            </p>
+          </div>
+        </li>
+
+        <li class="postagem-lista-item">
+          <figure class="postagem-poster">
+            <iframe width="100%" height="344" src="https://www.youtube.com/embed/sTK-lMqp8WY" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </figure>
+
+          <div class="postagem">
+            <h3 class="postagem-titulo">
+              Vamos vencer o coronavírus juntos
+            </h3>
+            <p class="postagem-fonte">
+              <a href="https://www.uberlandia.mg.gov.br/2020/03/25/vamos-vencer-o-coronavirus-juntos/"
+                class="postagem-fonte-item">Ver fonte</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="postagem-lista-item">
+          <figure class="postagem-poster">
+            <img src="img/rave.jpeg" alt="" />
+            <div class="postagem-poster-info">
+              <h3>Fique em casa não vá a festas</h3>
+              <a href="https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/04/14/varias-pessoas-sao-diagnosticadas-com-covid-19-apos-irem-a-festa-em-ro.htm"
+                class="postagem-poster-link">
+                <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+              </a>
+            </div>
+          </figure>
+
+          <div class="postagem">
+            <h3 class="postagem-titulo">
+              Festa = Coronavírus<br />Não caia nessa!
+            </h3>
+            <p class="postagem-fonte">
+              <a href="https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/04/14/varias-pessoas-sao-diagnosticadas-com-covid-19-apos-irem-a-festa-em-ro.htm"
+                class="postagem-fonte-item">
+                Ler Matéria
+              </a>
+            </p>
+          </div>
+        </li>
+
+        <li class="postagem-lista-item">
+          <figure class="postagem-poster">
+            <img src="img/idosa-feliz.png" alt="" />
+            <div class="postagem-poster-info">
+              <h3>Cuidados com Idosos Isolados</h3>
+              <a href="https://saude.abril.com.br/blog/chegue-bem/como-fica-a-cabeca-dos-idosos-em-tempos-de-covid-19-e-isolamento-social/"
+                class="postagem-poster-link">
+                <i class="fa fa-envelope-open" aria-hidden="true"></i>
+              </a>
+            </div>
+          </figure>
+
+          <div class="postagem">
+            <h3 class="postagem-titulo">
+              É hora de cuidar de quem já cuidou de você
+            </h3>
+            <p class="postagem-fonte">
+              <a href="https://saude.abril.com.br/blog/chegue-bem/como-fica-a-cabeca-dos-idosos-em-tempos-de-covid-19-e-isolamento-social/"
+                class="postagem-fonte-item">
+                Ler Matéria
+              </a>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="hero-usuario">
+        <div class="hero-usuario-foto">
+          <img src="img/walisson-rodrigo.jpg" alt="Walisson Rodrigo" />
+        </div>
+
+        <div class="hero-usuario-nome">
+          <a href="sobre.html">Walisson Rodrigo</a>
+        </div>
+      </div>
+
+      <ul class="rodape-lista">
+        <li class="rodape-lista-item icone-github">
+          <a href="https://github.com/WalissonRodrigo">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="rodape-lista-item icone-facebook">
+          <a href="https://facebook.com/walissonrodrigo0">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="rodape-lista-item icone-linkedin">
+          <a href="https://www.linkedin/in/walissonrodrigo">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
 </html>
